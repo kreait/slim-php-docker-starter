@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  web-frontend:
+    volumes:
+      - ./web/public:/var/www/public
+
+  web-backend:
+    volumes:
+      - ./web:/var/www/public

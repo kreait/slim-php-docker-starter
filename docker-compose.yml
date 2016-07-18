@@ -1,0 +1,18 @@
+version: '2'
+
+services:
+  web-frontend:
+    build:
+      context: .
+      dockerfile: ./docker/web/frontend/Dockerfile
+    ports:
+      - 80
+    depends_on:
+      - web-backend
+
+
+  web-backend:
+    build:
+      context: .
+      dockerfile: ./docker/web/backend/Dockerfile
+
