@@ -1,7 +1,7 @@
 # Slim Framework Skeleton for Docker
 
 A dockerized [Slim Framework skeleton](https://github.com/slimphp/Slim-Skeleton) application as
-a starting point for now Slim Framework projects.
+a starting point for new [Slim Framework](http://www.slimframework.com) projects.
 
 ## Requirements
 
@@ -32,7 +32,7 @@ The images for the application containers are built from the Dockerfiles in
 the `docker` directory so that you can modify them as needed for your
 application.
 
-- The [packend image](docker/web/backend/Dockerfile) extends the official
+- The [backend image](docker/web/backend/Dockerfile) extends the official
   [`nginx`](https://hub.docker.com/_/nginx/) image.
 - The [frontend image](docker/web/backend/Dockerfile) extends the official
   [`php-fpm`](https://hub.docker.com/_/php/) image.

@@ -18,7 +18,7 @@ $ composer install
 The images for the application containers are built from the Dockerfiles in
 the `docker` directory.
 
-- The [packend image](docker/web/backend/Dockerfile) extends the official
+- The [backend image](docker/web/backend/Dockerfile) extends the official
   [`nginx`](https://hub.docker.com/_/nginx/) image.
 - The [frontend image](docker/web/backend/Dockerfile) extends the official
   [`php-fpm`](https://hub.docker.com/_/php/) image.
