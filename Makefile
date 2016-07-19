@@ -1,4 +1,3 @@
-.PHONY: build up-dev up-prod down
 .DEFAULT_GOAL := help
 
 build: ## Builds docker images from the current project files
