@@ -33,9 +33,9 @@ the `docker` directory so that you can modify them as needed for your
 application.
 
 - The [backend image](docker/web/backend/Dockerfile) extends the official
-  [`nginx`](https://hub.docker.com/_/nginx/) image.
-- The [frontend image](docker/web/backend/Dockerfile) extends the official
   [`php-fpm`](https://hub.docker.com/_/php/) image.
+- The [frontend image](docker/web/frontend/Dockerfile) extends the official
+  [`nginx`](https://hub.docker.com/_/nginx/) image.
 
 ## Helpers
 
