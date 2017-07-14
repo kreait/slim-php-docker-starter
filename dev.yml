@@ -3,8 +3,8 @@ version: '2'
 services:
   web-frontend:
     volumes:
-      - ./web/public:/var/www/public
+      - ./web/public:/var/www/html/public
 
   web-backend:
     volumes:
-      - ./web:/var/www/public
+      - ./web:/var/www/html
